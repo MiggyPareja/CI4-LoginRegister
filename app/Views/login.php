@@ -13,12 +13,15 @@
                         <label for="password">Password: </label>
                         <input type="text" class="form-control" name="password" id="password" value="">
                     </div>
-                    <div>
-                        <button type="submit" class="btn btn-primary"></button>
-                    </div>
-                    <div class="col-12 col-sm-8 text-right">
+                    <div class="row">
+                     <div class="col-12 col-sm-4">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                     </div>
+                     <div class="col-12 col-sm-8 text-right">
                         <a href="/register">Don't Have an account yet?</a>
+                     </div>
                     </div>
+                    
                 </form>
             </div>
         </div>
